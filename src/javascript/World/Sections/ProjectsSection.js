@@ -2,9 +2,9 @@ import * as THREE from 'three'
 import Project from './Project'
 import TweenLite from 'gsap/TweenLite'
 
-import projectsThreejsJourneySlideASources from '../../../models/projects/threejsJourney/slideA.jpg'
-import projectsThreejsJourneySlideBSources from '../../../models/projects/threejsJourney/slideB.jpg'
-import projectsThreejsJourneySlideCSources from '../../../models/projects/threejsJourney/slideC.jpg'
+import projectsThreejsJourneySlideASources from '../../../models/projects/threejsJourney/wangblog.top.jpg'
+import projectsThreejsJourneySlideBSources from '../../../models/projects/threejsJourney/home.jpg'
+import projectsThreejsJourneySlideCSources from '../../../models/projects/threejsJourney/hot.jpg'
 import projectsThreejsJourneySlideDSources from '../../../models/projects/threejsJourney/slideD.jpg'
 
 import projectsMadboxSlideASources from '../../../models/projects/madbox/slideA.jpg'
@@ -113,7 +113,7 @@ export default class ProjectsSection
     {
         this.list = [
             {
-                name: 'Three.js Journey',
+                name: '王同学博客',
                 imageSources:
                 [
                     projectsThreejsJourneySlideASources,
@@ -124,7 +124,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://threejs-journey.com?c=p3',
+                    href: 'https://wangblog.top',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:

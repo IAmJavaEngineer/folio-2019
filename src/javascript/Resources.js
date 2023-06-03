@@ -96,7 +96,7 @@ import projectsDistinctionsFWACollisionSource from '../models/projects/distincti
 import projectsDistinctionsCSSDABaseSource from '../models/projects/distinctions/cssda/base.glb'
 import projectsDistinctionsCSSDACollisionSource from '../models/projects/distinctions/cssda/collision.glb'
 
-import projectsThreejsJourneyFloorSource from '../models/projects/threejsJourney/floorTexture.png'
+import projectsThreejsJourneyFloorSource from '../models/projects/threejsJourney/about.png'
 import projectsMadboxFloorSource from '../models/projects/madbox/floorTexture.png'
 import projectsScoutFloorSource from '../models/projects/scout/floorTexture.png'
 import projectsChartogneFloorSource from '../models/projects/chartogne/floorTexture.png'

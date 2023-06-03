@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --config ./bundler/webpack.dev.js",
     "watch": "webpack --watch --config ./bundler/webpack.config.js"
   },
   "repository": {
@@ -44,5 +45,8 @@
   "staticFiles": {
     "staticPath": "static",
     "watcherGlob": "**"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
